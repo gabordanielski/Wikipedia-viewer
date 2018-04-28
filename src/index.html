@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <title>Wikipedia Viewer BS4</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+  <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 offset-md-3">
+        <p class="text-center p-3 p-md-3"><a href="https://en.wikipedia.org/wiki/Special:Random" target='_blank'>Click here for a random article<a/></p>
+            <div class="input-group active-after">
+              <input type="text" class="form-control rounded-circle circle-mode bg-light" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">X</button>
+              </div>
+            </div>
+            <p class="text-center mt-5 mt-md-5 p-instruct">Click icon to search</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="articles col-sm-12 col-md-12">
+            <ul class="list-group">
+            </ul>
+          </div>
+        </div>
+      </div>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/viewer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+.container {
+  margin-top: 30vh;
+
+  .input-group {
+    width: 45px;
+    margin: 0 auto;
+
+    .form-control {
+      border-width: 2px !important;
+      cursor: pointer;
+      border-color: #616161;
+    }
+
+    .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .input-group-append {
+      display: none;
+
+      button {
+        border-width: 2px !important;
+        border-left-width: 0 !important;
+        border-color: #616161;
+      }
+
+      button:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  .articles {
+    display: none;
+
+    ul:first-child {
+      margin-top: 30px;
+    }
+
+    a:hover {
+      background-color: #d7dadc;
+      border-left: 10px solid;
+    }
+  }
+}
+
+.active-after {
+  &:after {
+    content: "";
+    background-color: #616161;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    right: -8px;
+    bottom: -3px;
+    transform: rotate(45deg);
+  }
+}
