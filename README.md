@@ -1,7 +1,4 @@
 # Wikipedia-viewer
-Free Code Camp challenge
-
-# Wikipedia-viewer
 > Simple app, wikipedia search. Using Bootstrap, Sass and Javascript (jQuery).
 
 ## Table of contents
